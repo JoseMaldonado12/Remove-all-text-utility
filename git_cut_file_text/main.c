@@ -8,7 +8,7 @@ main(int argc, char *argv[]) {
         filename=argv[1];
 } else{
        printf("No file selected. Select a file to cut its text in the command line.");
-       exit(0);
+       exit(1);
    }
 
    //opening file as read-only to ensure we dont create a new file; only erase current ones.
